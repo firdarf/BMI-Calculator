@@ -9,7 +9,7 @@ function calculate() {
 	bmi = weight/height;
 	bmi = bmi.toFixed(1);
 
-    // results
+// results
 	if (bmi <= 18.4) {
 		measure = "Your BMI is " + bmi + " which means " + "you are " + "<b>Underweight</b>";
 	} else if (bmi >= 18.5 && bmi <= 24.9) {
