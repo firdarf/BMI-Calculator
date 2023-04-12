@@ -9,14 +9,15 @@ function calculate() {
 	bmi = weight/height;
 	bmi = bmi.toFixed(1);
 
+    // results
 	if (bmi <= 18.4) {
-		measure = "Your BMI is " + bmi + " which means " + "you are Underweight";
+		measure = "Your BMI is " + bmi + " which means " + "you are " + "<b>Underweight</b>";
 	} else if (bmi >= 18.5 && bmi <= 24.9) {
-		measure = "Your BMI is " + bmi + " which means " + "You are Normal";
+		measure = "Your BMI is " + bmi + " which means " + "You are " + "<b>Normal</b>";
 	} else if (bmi >= 25 && bmi <= 29.9) {
-		measure = "Your BMI is " + bmi + " which means " + "You are Overweight";
+		measure = "Your BMI is " + bmi + " which means " + "You are " + "<b>Overweight</b>";
 	} else if (bmi >= 30) {
-		measure = "Your BMI is " + bmi + " which means " + "You are Obese";
+		measure = "Your BMI is " + bmi + " which means " + "You are " + "<b>Obese</b>";
 	}
 	
 
