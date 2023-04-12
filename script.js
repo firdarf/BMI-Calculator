@@ -27,7 +27,6 @@ function calculate() {
 		document.getElementById("results").innerHTML = error;
 	}
 	 else {
-
 		document.getElementById("results").innerHTML = measure;
 	}
 	if (weight < 0) {
